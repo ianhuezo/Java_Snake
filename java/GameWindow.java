@@ -12,7 +12,7 @@ public class GameWindow {
     private SnakeScreen mainGame;
     ScoreBoard score = new ScoreBoard();
     GameWindow(){
-        ImageIcon img = new ImageIcon("C:\\Users\\ianhu\\IdeaProjects\\Snake\\src\\main\\resources\\snake.png");
+        ImageIcon img = new ImageIcon("..\\resources\\snake.png");
         window.setIconImage(img.getImage());
     }
     public void initWindow(int screenWidth, int screenHeight, Board board, int boardQuality)
